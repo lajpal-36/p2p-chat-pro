@@ -1,0 +1,24 @@
+# P2P Dark Chat Application Dependencies
+# This is a client-side HTML application that runs entirely in the browser
+
+# External CDN Dependencies (loaded via script tags):
+# - PeerJS v1.5.2 (https://unpkg.com/peerjs@1.5.2/dist/peerjs.min.js)
+
+# No server-side dependencies required for basic deployment
+# The application uses:
+# - Vanilla JavaScript (no frameworks)
+# - CSS3 with custom properties
+# - HTML5 APIs (clipboard, localStorage)
+# - WebRTC (via PeerJS) for peer-to-peer communication
+
+# For local development server (optional):
+# python -m http.server 8000
+# or
+# npx serve .
+
+# For GitHub Pages deployment:
+# No additional requirements - just upload the HTML file
+
+# Security Note:
+# Consider hosting PeerJS locally instead of using CDN for production
+# Download from: https://github.com/peers/peerjs/releases
